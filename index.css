@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'ONE-Mobile-POP';
+}
+
+#title{
+    text-align: center;
+    display: block;
+    margin: 10rem 0rem 3rem 0rem;
+    font-size: 3rem;
+}
+
+#today{
+    text-align: center;
+    display: block;
+    margin: 5rem 0rem 3rem 0rem;
+    font-size: 1.3rem;
+}
+
+#result{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 10rem;
+}
+
+
+#stickerPan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+    justify-content: center;
+}
+
+.sticker{
+    border: 1px solid rgb(117, 38, 245);
+    width: 5rem;
+    height: 5rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    display: inline;
+    border-radius: 10rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(117, 38, 245);
+}
+
+.stickerTxt{
+    font-size: 1.3rem;
+    width: 5rem;
+    height: 5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin: 0rem;
+}
+
+.stickerDate{
+    font-size: 0.8rem;
+}
+
+.stickerCleared{
+    border: 1px solid rgb(117, 38, 245);
+    background-color: rgb(117, 38, 245);
+    width: 5rem;
+    height: 5rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    display: inline;
+    border-radius: 10rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width:667px) {
+    #title{
+        font-size: 1.6rem;
+        margin: 7rem 0rem 2rem 0rem;
+    }
+    #today{
+        font-size: 0.8rem;
+        margin: 3rem 0rem 3rem 0rem;
+    }
+
+    #stickerPan{
+        margin: 1rem;
+    }
+
+    .sticker{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 3rem;
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .stickerCleared{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 3rem;
+        font-size: 1rem;
+    }
+
+    .stickerTxt{
+        font-size: 0.8rem;
+        width: 2rem;
+        height: 2rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        margin: 0rem;
+    }
+    .stickerDate{
+        font-size: 0.2rem;
+    }
+
+    
+}
